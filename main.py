@@ -4,7 +4,7 @@ import datetime
 
 st.set_page_config(page_title="Examen Diagnóstico - Álgebra Lineal")
 
-st.title("Examen Diagnóstico – Álgebra Lineal")
+st.title("Examen Diagnóstico – Álgebra Lineal - Aplicacion desarrollada por Arq. Eduardo Ramirez")
 st.write("Nombre del alumno(a):")
 student_name = st.text_input("Ingresa tu nombre")
 
@@ -48,7 +48,7 @@ questions = [
         ]
     },
     {
-        "question": "5. Un carpintero quiere construir una mesa de 12 metros de largo gastando exactamente $170 usando tablas tipo A ($30, 2 m) y tipo B ($40, 3 m). ¿Cuál es el sistema de ecuaciones que representa este problema?",
+        "question": "5. Un carpintero quiere construir una mesa de 12 metros de largo gastando exactamente 170mxn usando tablas tipo A (30mxn, 2 m) y tipo B (40mxn, 3 m). ¿Cuál es el sistema de ecuaciones que representa este problema?",
         "options": [
             "2x + 3y = 12,    30x + 40y = 170",
             "2x + 3y = 170,   30x + 40y = 12",
